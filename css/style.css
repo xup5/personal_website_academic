@@ -22,6 +22,8 @@
   .dark-theme nav .nav-list a.active { 
     color: #FAF9F6;}
 
+    audio { display:none;}
+
     body {
       font: 100% 'Courier New', Courier, monospace; /* Retro, digital font */
       margin: 0;
