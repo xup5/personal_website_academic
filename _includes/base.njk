@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ '/css/style.css' | url }}" />
+  </head>
+  <body id="nightModeDiv" class="">
+    {% include "components/navbar.njk" %}
+      <main>{{ content | safe }}</main>
+    {% include "components/footer.njk" %}
+    <script src="{{ '/js/script.js' }}" type="text/javascript"></script>
+  </body>
+  
+    {# <audio id="player" autoplay> #}
+    {#  <source src="/music/Merzbow.mp3" type="audio/mp3"> #}
+    {#  Your browser does not support the audio element. #}
+    {# </audio> #}
+
+</html>
